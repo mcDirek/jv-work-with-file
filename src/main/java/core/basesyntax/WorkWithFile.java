@@ -43,5 +43,8 @@ public class WorkWithFile {
         } catch (IOException e) {
             throw new RuntimeException("Can't write file: " + toFileName, e);
         }
+
+        supply = 0;
+        buy = 0;
     }
 }
